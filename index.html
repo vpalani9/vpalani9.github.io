@@ -2,10 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chit App Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChitApp - Monitor Your Chit Investments</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; text-align: center; background: white; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); border-radius: 10px; }
+        header { background: linear-gradient(90deg, #007bff, #00d4ff); color: white; padding: 20px; font-size: 24px; font-weight: bold; border-radius: 10px 10px 0 0; display: flex; justify-content: space-between; align-items: center; }
+        .nav-links { display: flex; gap: 20px; }
+        .nav-links a { color: white; text-decoration: none; font-size: 16px; }
+        .nav-links a:hover { text-decoration: underline; }
+        .content { padding: 20px; }
+        h1 { color: #333; font-size: 32px; margin-bottom: 10px; }
+        p { font-size: 18px; color: #666; margin-bottom: 20px; line-height: 1.6; }
+        h2 { color: #007bff; font-size: 24px; margin-bottom: 20px; }
+        .features { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .feature-box { width: 30%; padding: 20px; background: linear-gradient(135deg, #43cea2, #185a9d); box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; transition: transform 0.3s; color: white; }
+        .feature-box:nth-child(2n) { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+        .feature-box:nth-child(3n) { background: linear-gradient(135deg, #43cea2, #185a9d); }
+        .feature-box:nth-child(4n) { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+        .feature-box:nth-child(5n) { background: linear-gradient(135deg, #43cea2, #185a9d); }
+        .feature-box:nth-child(6n) { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+        .feature-box:hover { transform: translateY(-10px); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 20px; }
+        .gallery img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+        .privacy { margin-top: 20px; font-size: 16px; }
+        .privacy a { color: #007bff; text-decoration: none; }
+        .privacy a:hover { text-decoration: underline; }
+        section { padding: 20px; margin-top: 20px; background: #f9f9f9; border-radius: 10px; }
+    </style>
 </head>
 <body>
-    <h1>Chit App</h1>
-    <p>Developer support page.</p>
+    <header>
+        ChitApp - Manage Your Chit Investments Easily
+        <div class="nav-links">
+            <a href="privacypolicy.html" target="_blank">Privacy Policy</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to ChitApp</h1>
+            <p>ChitApp is your comprehensive solution for managing all your chit-fund investments in one place. It helps you strategize, monitor, and analyze your investments with ease. With features like estimated calculations, monthly and annual fund insights, and data backup via Google Drive, ChitApp ensures you have all the tools you need to make informed decisions and keep track of your investments effortlessly.</p>
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature-box">Strategize your chit investments well in advance.</div>
+                <div class="feature-box">Get estimated calculations for better decision-making.</div>
+                <div class="feature-box">Track monthly fund requirements and yearly closures.</div>
+                <div class="feature-box">Backup and restore data with Google Drive integration.</div>
+                <div class="feature-box">Use pending view to prevent oversights.</div>
+                <div class="feature-box">Track overdue chits easily.</div>
+            </div>
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/1.png" alt="Screenshot 1">
+                <img src="images/2.png" alt="Screenshot 2">
+                <img src="images/3.png" alt="Screenshot 3">
+                <img src="images/4.png" alt="Screenshot 4">
+                <img src="images/5.png" alt="Screenshot 5">
+                <img src="images/6.png" alt="Screenshot 6">
+                <img src="images/7.png" alt="Screenshot 7">
+                <img src="images/8.png" alt="Screenshot 8">
+                <img src="images/9.png" alt="Screenshot 9">
+            </div>
+			<div class = 'datausage'>
+			    <h2>Data Usage Transparency</h2>
+    <p>ChitApp requests access to your Google Drive solely for the purpose of providing a seamless data backup and restore functionality. This feature allows you to securely store your chit-fund investment data on your Google Drive, ensuring that your information is safe and can be easily restored if needed. We do not access, use, or share your Google Drive data for any other purposes. Your privacy and data security are our top priorities, and we are committed to maintaining transparency in how we handle your information.</p>
+
+			</div>
+            <div class="privacy">
+                <p><a href="privacypolicy.html" target="_blank">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach out to us:</p>
+        <ul>
+            <li>Email: <a href="mailto:velu.p.samy@gmail.com">velu.p.samy@gmail.com</a></li>
+        </ul>
+    </section>
 </body>
 </html>
